@@ -14,7 +14,6 @@ public class HashTable {
     private HashNode[] arr;
     private boolean[] deleted;
 
-
     HashTable(int itemsNumber) {
         this(itemsNumber, BASE_LOAD_FACTOR);
     }
